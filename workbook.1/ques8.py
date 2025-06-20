@@ -1,0 +1,5 @@
+str1 = input("Enter a string: ")
+str2 = input("Enter the same string again: ")
+print("ID of str1:", id(str1))
+print("ID of str2:", id(str2))
+print("IDs are same?", id(str1) == id(str2))

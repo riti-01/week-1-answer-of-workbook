@@ -1,0 +1,5 @@
+x = input("Enter a value for x: ")
+y = input("Enter the same value for y: ")
+print("ID of x:", id(x))
+print("ID of y:", id(y))
+print("IDs are same?" , id(x) == id(y))
